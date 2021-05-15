@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>elevator_system_msgs</name>
-  <version>1.2.0</version>
-  <description>interfaces for elevator are defined</description>
-  <maintainer email="sungkyu.kang@lge.com">Sungkyu Kang</maintainer>
+  <name>perception_msgs</name>
+  <version>0.1.0</version>
+  <description>interfaces for ground truth</description>
   <maintainer email="hyunseok7.yang@lge.com">Hyunseok Yang</maintainer>
 
   <license>MIT</license>
@@ -13,6 +12,7 @@
   <buildtool_depend>rosidl_default_generators</buildtool_depend>
 
   <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
 
   <exec_depend>rosidl_default_runtime</exec_depend>
 
