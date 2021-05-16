@@ -15,4 +15,4 @@ geometry_msgs/Vector3 position
 geometry_msgs/Vector3 velocity
 
 # footprint
-geometry_msgs/Point32[] foot_prints
+geometry_msgs/Point32[] footprints
