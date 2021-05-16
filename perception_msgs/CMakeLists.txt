@@ -11,7 +11,7 @@ file(GLOB_RECURSE msg_files RELATIVE ${PROJECT_SOURCE_DIR} msg/*.msg)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
-  DEPENDENCIES builtin_interfaces std_msgs
+  DEPENDENCIES builtin_interfaces std_msgs geometry_msgs
   ADD_LINTER_TESTS
 )
 
