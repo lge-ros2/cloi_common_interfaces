@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>realsense_adaptor_msgs</name>
+  <name>perception_msgs</name>
   <version>0.1.0</version>
-  <description>interfaces for realsense_adaptor are defined.</description>
+  <description>interfaces for ground truth</description>
   <maintainer email="hyunseok7.yang@lge.com">Hyunseok Yang</maintainer>
 
   <license>MIT</license>
@@ -12,10 +12,8 @@
   <buildtool_depend>rosidl_default_generators</buildtool_depend>
 
   <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
 
-  <build_depend>builtin_interfaces</build_depend>
-
-  <exec_depend>builtin_interfaces</exec_depend>
   <exec_depend>rosidl_default_runtime</exec_depend>
 
   <test_depend>ament_lint_common</test_depend>

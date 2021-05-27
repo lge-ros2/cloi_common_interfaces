@@ -5,5 +5,5 @@
 ##
 
 std_msgs/Header header
-CameraData color
-CameraData depth
+
+ObjectInfo[] objects
